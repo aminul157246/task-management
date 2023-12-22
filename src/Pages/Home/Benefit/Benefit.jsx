@@ -18,7 +18,7 @@ const Benefit = () => {
   <h2 className='text-3xl font-semibold'>Project management software for  <span className='text-orange-400'>Banking</span></h2>
     <p>Banking and insurance companies are managing projects that are process-driven and require high security.</p>
     <div className="card-actions justify-end">
-      <button className="btn btn-outline rounded-full hover:bg-orange-400">Details > </button>
+      <button className="btn btn-outline rounded-full hover:bg-orange-400">Details </button>
     </div>
   </div>
 </div>
@@ -30,7 +30,7 @@ const Benefit = () => {
   <h2 className='text-3xl font-semibold'>Project management software for  <span className='text-orange-400'> Developer</span></h2>
     <p>Banking and insurance companies are managing projects that are process-driven and require high security.</p>
     <div className="card-actions justify-end">
-      <button className="btn btn-outline rounded-full hover:bg-orange-400">Details > </button>
+      <button className="btn btn-outline rounded-full hover:bg-orange-400">Details  </button>
     </div>
   </div>
 </div>
@@ -42,7 +42,7 @@ const Benefit = () => {
   <h2 className='text-3xl font-semibold'>Project management software for  <span className='text-orange-400'>corporate professionals</span></h2>
     <p>Banking and insurance companies are managing projects that are process-driven and require high security.</p>
     <div className="card-actions justify-end">
-      <button className="btn btn-outline rounded-full hover:bg-orange-400">Details > </button>
+      <button className="btn btn-outline rounded-full hover:bg-orange-400">Details  </button>
     </div>
   </div>
 </div>

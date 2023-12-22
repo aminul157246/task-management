@@ -32,7 +32,7 @@ const router = createBrowserRouter([
       {
         path  : '/tasks',
         element : <PrivateRoute><Tasks></Tasks></PrivateRoute>,
-        loader : ( ) => fetch('http://localhost:5000/task')
+        loader : ( ) => fetch('https://task-management-server-pied.vercel.app/task')
       },
       {
         path : '/login',

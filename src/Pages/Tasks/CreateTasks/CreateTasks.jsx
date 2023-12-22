@@ -19,7 +19,7 @@ const CreateTasks = () => {
         console.log(createdAssignment);
 
         // send data in server from here
-            fetch("http://localhost:5000/task", {
+            fetch("https://task-management-server-pied.vercel.app/task", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",

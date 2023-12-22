@@ -13,7 +13,7 @@ const Saying = () => {
       value={4}
       readOnly
     />
-                    <h2 className="text-xl font-semibold"> "I often building trust with your clients is surely one of the most important things for every business. This is how they turn prospects into clients as well as keep existing clients happy and for a longer period. Here are a few tips to gain your client's trust:"</h2>
+                    <h2 className="text-xl font-semibold"> I often building trust with your clients is surely one of the most important things for every business. This is how they turn prospects into clients as well as keep existing clients happy and for a longer period. Here are a few tips to gain your clients trust</h2>
 
                 </div>
                 <div className="flex-1 ">
@@ -22,7 +22,7 @@ const Saying = () => {
                 </div>
             
            <div className='lg:pl-24'>
-           <button className="btn btn-outline hover:bg-orange-300 rounded-full ">Vier more > </button>
+           <button className="btn btn-outline hover:bg-orange-300 rounded-full ">Vier more  </button>
            </div>
         </div>
     );

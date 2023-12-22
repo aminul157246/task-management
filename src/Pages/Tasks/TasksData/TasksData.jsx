@@ -12,7 +12,7 @@ const TasksData = () => {
     
     const handleDelete = (id)  => {
 
-        fetch(`http://localhost:5000/task/${id}`, {
+        fetch(`https://task-management-server-pied.vercel.app/task/${id}`, {
 
             method: "DELETE"
         })
@@ -54,7 +54,7 @@ const TasksData = () => {
                     </thead>
                     <tbody>
                         {
-                            tasks.map(task => <tr key={task._id}>
+                            tasks?.map(task => <tr key={task._id}>
 
                                 <td><img className="w-[80px] rounded-e-full" src={task.profile_pic} alt="" /></td>
                                 <td>{task.title}</td>
