@@ -1,9 +1,11 @@
+import CreateTasks from "./CreateTasks/CreateTasks";
+import TasksData from "./TasksData/TasksData";
 
 const Tasks = () => {
     return (
         <div>
-            Tasks
-Tasks
+           <CreateTasks></CreateTasks>
+           <TasksData></TasksData>
         </div>
     );
 };

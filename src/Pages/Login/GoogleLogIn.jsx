@@ -1,6 +1,6 @@
 import { useContext } from "react";
-import { AuthContext } from "../AuthProvider/AuthProvider";
-import swal from "sweetalert";
+import { AuthContext } from "../../Shared/AuthProvider/AuthProvider";
+import toast from "react-hot-toast";
 
 const GoogleLogIn = () => {
 
@@ -11,7 +11,7 @@ const GoogleLogIn = () => {
         signInWithGoogle()
         .then(res => {
             console.log(res.user);
-            swal("Good job!", "Sign in with Google done!", "success");
+            toast("success:Login successfully")
         })
         .catch(err => {
             console.log(err.message);

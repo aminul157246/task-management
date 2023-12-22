@@ -1,9 +1,8 @@
 
 
 import { Link,  useNavigate } from 'react-router-dom';
-
-import toast from 'react-hot-toast';
 import { useContext } from 'react';
+import toast from 'react-hot-toast';
 import { AuthContext } from '../../Shared/AuthProvider/AuthProvider';
 import GoogleLogIn from './GoogleLogIn';
 

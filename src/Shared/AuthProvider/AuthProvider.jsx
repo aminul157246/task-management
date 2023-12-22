@@ -79,6 +79,4 @@ console.log(user);
 
 
 
-
-
 export default AuthProvider;

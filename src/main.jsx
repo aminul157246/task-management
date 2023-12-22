@@ -15,6 +15,7 @@ import Tasks from './Pages/Tasks/Tasks';
 import Login from './Pages/Login/Login';
 import Register from './Pages/Login/Register';
 import AuthProvider from './Shared/AuthProvider/AuthProvider';
+import PrivateRoute from './Shared/PrivateRoute/PrivateRoute';
 
 
 
@@ -30,7 +31,8 @@ const router = createBrowserRouter([
       },
       {
         path  : '/tasks',
-        element : <Tasks></Tasks>
+        element : <PrivateRoute><Tasks></Tasks></PrivateRoute>,
+        loader : ( ) => fetch('http://localhost:5000/task')
       },
       {
         path : '/login',
